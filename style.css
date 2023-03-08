@@ -17,7 +17,7 @@ html, body {
     display:inline-block; 
     transition: transform 0.5s ease-out;
     text-decoration: none !important;
-    /* additional styling as needed */
+
   }
 
   #logo:hover {
@@ -26,14 +26,14 @@ html, body {
   }
 
   a:link {
-    color: #402039; /* set link color for visited links */
+    color: #402039; 
     font-weight: bolder;
     font-family: roboto;
     letter-spacing: 1.2px;;
     text-decoration: none;
   }
   a:visited {
-    color: #402039; /* set link color for visited links */
+    color: #402039; 
 
   }
 
@@ -58,7 +58,7 @@ html, body {
     height: 40%;
     text-align: center;
     justify-content: center;
-    /* additional styling here */
+  
   }
 
 #output {
