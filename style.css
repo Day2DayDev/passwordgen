@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header {
+    text-align: center;
+  }
+  
+  #logo {
+    font: roboto;
+    font-weight: 900px;
+    margin-top: 20px;
+    display:inline-block; 
+    transition: transform 0.5s ease-out;
+    /* additional styling as needed */
+  }
+
+  #logo:hover {
+    transform: scale(1.2); 
+    color: white;
+    cursor: pointer;
+
+  }
+
+  body {
+    background-image: url('./images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+
+  .main-container {
+    padding-top: 110px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    justify-content: center;
+    /* additional styling here */
+  }
+
+#output {
+    font: 900;
+    font-size: 31px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    box-shadow: 5px 10px 8px #3333334d;
+}
+
+button:hover {
+    box-shadow: 5px 5px 8px #3333334d;
+}
+
+button.btn-warning {
+color: white;
+font-family: roboto;
+font-weight: 600;
+letter-spacing: 1px;
+}
+button.btn-success {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: roboto;
+    
+    }
